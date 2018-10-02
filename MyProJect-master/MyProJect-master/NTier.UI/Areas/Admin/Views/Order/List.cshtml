@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Sipariş Listesi";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+@using PagedList;
+@using PagedList.Mvc;
+@using NTier.Model.Model.Entities
+@model IPagedList<Order>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Müşteri Adı</th>
+                    <th>Müşteri Kullanıcı Adı</th>
+                    <th>Sipariş Tarihi</th>
+                    <th>Sipariş Detay</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ID</td>
+                        <td>@item.AppUser.Name</td>
+                        <td>@item.AppUser.UserName</td>
+                        <td>@item.CreatedDate</td>
+                        <td>
+                            <a href="@Url.Action("Detail","Order",new { area="Admin",id=item.ID})">Görüntüle</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="pagedList">
+            @Html.PagedListPager(Model, page => Url.Action("List", "Order", new { page }), PagedListRenderOptions.TwitterBootstrapPager)
+        </div>
+    </div>
+</div>

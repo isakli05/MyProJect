@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Ürün Güncelleme Ekranı";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+@using NTier.Model.Model.Entities
+@using NTier.UI.Areas.Admin.Models
+@model ProductVM
+
+@using (Html.BeginForm("Update", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group">
+        <img src="@Model.ImagePath" width="250" class="img-rounded" />
+    </div>
+    <div class="form-group">
+        <label for="Image">Fotoğraf Seçiniz</label>
+        <input type="file" name="Image" class="form-control" />
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(product => product.Name)
+        @Html.TextBoxFor(product => product.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(product => product.Price)
+        @Html.TextBoxFor(product => product.Price, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(product => product.UnitsInStock)
+        @Html.TextBoxFor(product => product.UnitsInStock, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(product => product.Quantity)
+        @Html.TextBoxFor(product => product.Quantity, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(product => product.CategoryID)
+        <select name="CategoryID" class="form-control">
+            @foreach (var item in TempData["KategoriListesi"] as List<Category>)
+            {
+                <option value="@item.ID">@item.Name</option>
+            }
+        </select>
+    </div>
+    @Html.HiddenFor(x => x.ID)
+    <input type="submit" value="Güncelle" class="form-control btn btn-primary" />
+}

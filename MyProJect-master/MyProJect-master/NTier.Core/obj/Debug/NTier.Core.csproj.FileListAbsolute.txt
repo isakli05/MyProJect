@@ -1,0 +1,24 @@
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\bin\Debug\NTier.Core.dll.config
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\bin\Debug\NTier.Core.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\bin\Debug\NTier.Core.pdb
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\bin\Debug\EntityFramework.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\bin\Debug\EntityFramework.xml
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\obj\Debug\NTier.Core.csprojAssemblyReference.cache
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\obj\Debug\NTier.Core.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\obj\Debug\NTier.Core.csproj.CopyComplete
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\obj\Debug\NTier.Core.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Core\obj\Debug\NTier.Core.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\bin\Debug\NTier.Core.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\bin\Debug\NTier.Core.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\bin\Debug\NTier.Core.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\bin\Debug\EntityFramework.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\bin\Debug\EntityFramework.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\obj\Debug\NTier.Core.csprojAssemblyReference.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\obj\Debug\NTier.Core.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\obj\Debug\NTier.Core.csproj.CopyComplete
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\obj\Debug\NTier.Core.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Core\obj\Debug\NTier.Core.pdb

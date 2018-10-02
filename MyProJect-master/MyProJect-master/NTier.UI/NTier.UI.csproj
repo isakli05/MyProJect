@@ -1,0 +1,436 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5945ED1F-F7D5-48D1-B972-F417404B06CD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NTier.UI</RootNamespace>
+    <AssemblyName>NTier.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Content\images\adv_1.png" />
+    <Content Include="Areas\Content\images\adv_2.png" />
+    <Content Include="Areas\Content\images\adv_3.png" />
+    <Content Include="Areas\Content\images\banner_2_background.jpg" />
+    <Content Include="Areas\Content\images\banner_2_product.png" />
+    <Content Include="Areas\Content\images\banner_background.jpg" />
+    <Content Include="Areas\Content\images\banner_product.png" />
+    <Content Include="Areas\Content\images\best_1.png" />
+    <Content Include="Areas\Content\images\best_2.png" />
+    <Content Include="Areas\Content\images\best_3.png" />
+    <Content Include="Areas\Content\images\best_4.png" />
+    <Content Include="Areas\Content\images\best_5.png" />
+    <Content Include="Areas\Content\images\best_6.png" />
+    <Content Include="Areas\Content\images\blog_1.jpg" />
+    <Content Include="Areas\Content\images\blog_2.jpg" />
+    <Content Include="Areas\Content\images\blog_3.jpg" />
+    <Content Include="Areas\Content\images\blog_4.jpg" />
+    <Content Include="Areas\Content\images\blog_5.jpg" />
+    <Content Include="Areas\Content\images\blog_6.jpg" />
+    <Content Include="Areas\Content\images\blog_7.jpg" />
+    <Content Include="Areas\Content\images\blog_8.jpg" />
+    <Content Include="Areas\Content\images\blog_9.jpg" />
+    <Content Include="Areas\Content\images\blog_single_background.jpg" />
+    <Content Include="Areas\Content\images\brands_1.jpg" />
+    <Content Include="Areas\Content\images\brands_2.jpg" />
+    <Content Include="Areas\Content\images\brands_3.jpg" />
+    <Content Include="Areas\Content\images\brands_4.jpg" />
+    <Content Include="Areas\Content\images\brands_5.jpg" />
+    <Content Include="Areas\Content\images\brands_6.jpg" />
+    <Content Include="Areas\Content\images\brands_7.jpg" />
+    <Content Include="Areas\Content\images\brands_8.jpg" />
+    <Content Include="Areas\Content\images\cart.png" />
+    <Content Include="Areas\Content\images\char_1.png" />
+    <Content Include="Areas\Content\images\char_2.png" />
+    <Content Include="Areas\Content\images\char_3.png" />
+    <Content Include="Areas\Content\images\char_4.png" />
+    <Content Include="Areas\Content\images\contact_1.png" />
+    <Content Include="Areas\Content\images\contact_2.png" />
+    <Content Include="Areas\Content\images\contact_3.png" />
+    <Content Include="Areas\Content\images\deals.png" />
+    <Content Include="Areas\Content\images\featured_1.png" />
+    <Content Include="Areas\Content\images\featured_2.png" />
+    <Content Include="Areas\Content\images\featured_3.png" />
+    <Content Include="Areas\Content\images\featured_4.png" />
+    <Content Include="Areas\Content\images\featured_5.png" />
+    <Content Include="Areas\Content\images\featured_6.png" />
+    <Content Include="Areas\Content\images\featured_7.png" />
+    <Content Include="Areas\Content\images\featured_8.png" />
+    <Content Include="Areas\Content\images\heart.png" />
+    <Content Include="Areas\Content\images\logos_1.png" />
+    <Content Include="Areas\Content\images\logos_2.png" />
+    <Content Include="Areas\Content\images\logos_3.png" />
+    <Content Include="Areas\Content\images\logos_4.png" />
+    <Content Include="Areas\Content\images\mail.png" />
+    <Content Include="Areas\Content\images\mail_white.png" />
+    <Content Include="Areas\Content\images\marker.png" />
+    <Content Include="Areas\Content\images\new_1.jpg" />
+    <Content Include="Areas\Content\images\new_10.jpg" />
+    <Content Include="Areas\Content\images\new_2.jpg" />
+    <Content Include="Areas\Content\images\new_3.jpg" />
+    <Content Include="Areas\Content\images\new_4.jpg" />
+    <Content Include="Areas\Content\images\new_5.jpg" />
+    <Content Include="Areas\Content\images\new_6.jpg" />
+    <Content Include="Areas\Content\images\new_7.jpg" />
+    <Content Include="Areas\Content\images\new_8.jpg" />
+    <Content Include="Areas\Content\images\new_9.jpg" />
+    <Content Include="Areas\Content\images\new_single.png" />
+    <Content Include="Areas\Content\images\phone.png" />
+    <Content Include="Areas\Content\images\phone_white.png" />
+    <Content Include="Areas\Content\images\popular_1.png" />
+    <Content Include="Areas\Content\images\popular_2.png" />
+    <Content Include="Areas\Content\images\popular_3.png" />
+    <Content Include="Areas\Content\images\popular_4.png" />
+    <Content Include="Areas\Content\images\popular_5.png" />
+    <Content Include="Areas\Content\images\quote.png" />
+    <Content Include="Areas\Content\images\review_1.jpg" />
+    <Content Include="Areas\Content\images\review_2.jpg" />
+    <Content Include="Areas\Content\images\review_3.jpg" />
+    <Content Include="Areas\Content\images\search.png" />
+    <Content Include="Areas\Content\images\send.png" />
+    <Content Include="Areas\Content\images\shopping_cart.jpg" />
+    <Content Include="Areas\Content\images\shop_1.jpg" />
+    <Content Include="Areas\Content\images\shop_2.jpg" />
+    <Content Include="Areas\Content\images\shop_background.jpg" />
+    <Content Include="Areas\Content\images\single_1.jpg" />
+    <Content Include="Areas\Content\images\single_2.jpg" />
+    <Content Include="Areas\Content\images\single_3.jpg" />
+    <Content Include="Areas\Content\images\single_4.jpg" />
+    <Content Include="Areas\Content\images\trends_1.jpg" />
+    <Content Include="Areas\Content\images\trends_2.jpg" />
+    <Content Include="Areas\Content\images\trends_3.jpg" />
+    <Content Include="Areas\Content\images\trends_background.jpg" />
+    <Content Include="Areas\Content\images\user.png" />
+    <Content Include="Areas\Content\images\user.svg" />
+    <Content Include="Areas\Content\images\view_1.jpg" />
+    <Content Include="Areas\Content\images\view_2.jpg" />
+    <Content Include="Areas\Content\images\view_3.jpg" />
+    <Content Include="Areas\Content\images\view_4.jpg" />
+    <Content Include="Areas\Content\images\view_5.jpg" />
+    <Content Include="Areas\Content\images\view_6.jpg" />
+    <Content Include="Areas\Content\js\blog_custom.js" />
+    <Content Include="Areas\Content\js\blog_single_custom.js" />
+    <Content Include="Areas\Content\js\cart_custom.js" />
+    <Content Include="Areas\Content\js\contact_custom.js" />
+    <Content Include="Areas\Content\js\custom.js" />
+    <Content Include="Areas\Content\js\jquery-3.3.1.min.js" />
+    <Content Include="Areas\Content\js\product_custom.js" />
+    <Content Include="Areas\Content\js\regular_custom.js" />
+    <Content Include="Areas\Content\js\shop_custom.js" />
+    <Content Include="Areas\Content\plugins\easing\easing.js" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\css\fontawesome-all.css" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.svg" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.svg" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.svg" />
+    <Content Include="Areas\Content\plugins\greensock\animation.gsap.min.js" />
+    <Content Include="Areas\Content\plugins\greensock\ScrollToPlugin.min.js" />
+    <Content Include="Areas\Content\plugins\greensock\TimelineMax.min.js" />
+    <Content Include="Areas\Content\plugins\greensock\TweenMax.min.js" />
+    <Content Include="Areas\Content\plugins\Isotope\isotope.pkgd.min.js" />
+    <Content Include="Areas\Content\plugins\jquery-ui-1.12.1.custom\jquery-ui.css" />
+    <Content Include="Areas\Content\plugins\jquery-ui-1.12.1.custom\jquery-ui.js" />
+    <Content Include="Areas\Content\plugins\OwlCarousel2-2.2.1\ajax-loader.gif" />
+    <Content Include="Areas\Content\plugins\OwlCarousel2-2.2.1\animate.css" />
+    <Content Include="Areas\Content\plugins\OwlCarousel2-2.2.1\owl.carousel.css" />
+    <Content Include="Areas\Content\plugins\OwlCarousel2-2.2.1\owl.carousel.js" />
+    <Content Include="Areas\Content\plugins\OwlCarousel2-2.2.1\owl.theme.default.css" />
+    <Content Include="Areas\Content\plugins\OwlCarousel2-2.2.1\owl.video.play.png" />
+    <Content Include="Areas\Content\plugins\parallax-js-master\parallax.min.js" />
+    <Content Include="Areas\Content\plugins\scrollmagic\ScrollMagic.min.js" />
+    <Content Include="Areas\Content\plugins\slick-1.8.0\ajax-loader.gif" />
+    <Content Include="Areas\Content\plugins\slick-1.8.0\fonts\slick.svg" />
+    <Content Include="Areas\Content\plugins\slick-1.8.0\index.html" />
+    <Content Include="Areas\Content\plugins\slick-1.8.0\slick.css" />
+    <Content Include="Areas\Content\plugins\slick-1.8.0\slick.js" />
+    <Content Include="Areas\Content\styles\blog_responsive.css" />
+    <Content Include="Areas\Content\styles\blog_single_responsive.css" />
+    <Content Include="Areas\Content\styles\blog_single_styles.css" />
+    <Content Include="Areas\Content\styles\blog_styles.css" />
+    <Content Include="Areas\Content\styles\bootstrap4\bootstrap.min.css" />
+    <Content Include="Areas\Content\styles\bootstrap4\bootstrap.min.js" />
+    <Content Include="Areas\Content\styles\bootstrap4\popper.js" />
+    <Content Include="Areas\Content\styles\cart_responsive.css" />
+    <Content Include="Areas\Content\styles\cart_styles.css" />
+    <Content Include="Areas\Content\styles\contact_responsive.css" />
+    <Content Include="Areas\Content\styles\contact_styles.css" />
+    <Content Include="Areas\Content\styles\main_styles.css" />
+    <Content Include="Areas\Content\styles\product_responsive.css" />
+    <Content Include="Areas\Content\styles\product_styles.css" />
+    <Content Include="Areas\Content\styles\regular_responsive.css" />
+    <Content Include="Areas\Content\styles\regular_styles.css" />
+    <Content Include="Areas\Content\styles\responsive.css" />
+    <Content Include="Areas\Content\styles\shop_responsive.css" />
+    <Content Include="Areas\Content\styles\shop_styles.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\Add.png" />
+    <Content Include="Content\images\Add1.png" />
+    <Content Include="Content\images\cart.png" />
+    <Content Include="Content\images\Remove.png" />
+    <Content Include="Content\images\Remove1.png" />
+    <Content Include="Content\images\Shopping.png" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\scripts\bootstrap.js" />
+    <Content Include="Content\scripts\bootstrap.min.js" />
+    <Content Include="Areas\Member\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.eot" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.ttf" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff2" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.eot" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.ttf" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff2" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.eot" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.ttf" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff" />
+    <Content Include="Areas\Content\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff2" />
+    <Content Include="Areas\Content\plugins\slick-1.8.0\fonts\slick.eot" />
+    <Content Include="Areas\Content\plugins\slick-1.8.0\fonts\slick.ttf" />
+    <Content Include="Areas\Content\plugins\slick-1.8.0\fonts\slick.woff" />
+    <None Include="Content\scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Content\scripts\jquery-1.9.1.js" />
+    <Content Include="Content\scripts\jquery-1.9.1.min.js" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AppUserController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\OrderController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
+    <Compile Include="Areas\Admin\Models\AppUserVM.cs" />
+    <Compile Include="Areas\Admin\Models\CategoryVM.cs" />
+    <Compile Include="Areas\Admin\Models\ProductVM.cs" />
+    <Compile Include="Areas\Member\Controllers\CategoryController.cs" />
+    <Compile Include="Areas\Member\Controllers\OrderController.cs" />
+    <Compile Include="Areas\Member\Controllers\ProductController.cs" />
+    <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
+    <Compile Include="Attributes\RoleAttribute.cs" />
+    <Compile Include="Cart\ProductCart.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CartProductVM.cs" />
+    <Compile Include="Models\LoginVM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Member\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\AppUser\Add.cshtml" />
+    <Content Include="Areas\Admin\Views\AppUser\List.cshtml" />
+    <Content Include="Areas\Admin\Views\AppUser\Update.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Add.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\List.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Update.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Order\Detail.cshtml" />
+    <Content Include="Areas\Admin\Views\Order\List.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Add.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\List.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Update.cshtml" />
+    <Content Include="Areas\Member\Views\Category\Index.cshtml" />
+    <Content Include="Areas\Member\Views\Product\List.cshtml" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\bootstrap.min.css.map" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\scripts\jquery-1.9.1.min.map" />
+    <None Include="packages.config" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Error\NFound.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Member\Models\" />
+    <Folder Include="Areas\Member\Views\Order\" />
+    <Folder Include="Uploads\" />
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NTier.Core\NTier.Core.csproj">
+      <Project>{a0f2e0a5-9554-4eb9-b712-e89b985e27e4}</Project>
+      <Name>NTier.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NTier.DAL\NTier.DAL.csproj">
+      <Project>{bfe23f98-35ac-45fa-8811-a8e754e8c8c5}</Project>
+      <Name>NTier.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NTier.Model\NTier.Model.csproj">
+      <Project>{F48F53AD-545D-4279-8D88-1C9F8980F54B}</Project>
+      <Name>NTier.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NTier.Service\NTier.Service.csproj">
+      <Project>{E8357A72-2DF6-4666-A0FB-D8576EA6C520}</Project>
+      <Name>NTier.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NTier.Utility\NTier.Utility.csproj">
+      <Project>{821ff199-a21c-407b-bc6c-4470fb11bf2d}</Project>
+      <Name>NTier.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57028</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57028/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Utility\bin\Debug\NTier.Utility.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Utility\bin\Debug\NTier.Utility.pdb
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Utility\obj\Debug\NTier.Utility.csprojAssemblyReference.cache
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Utility\obj\Debug\NTier.Utility.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Utility\obj\Debug\NTier.Utility.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Utility\obj\Debug\NTier.Utility.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Utility\bin\Debug\NTier.Utility.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Utility\bin\Debug\NTier.Utility.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Utility\obj\Debug\NTier.Utility.csprojAssemblyReference.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Utility\obj\Debug\NTier.Utility.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Utility\obj\Debug\NTier.Utility.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Utility\obj\Debug\NTier.Utility.pdb

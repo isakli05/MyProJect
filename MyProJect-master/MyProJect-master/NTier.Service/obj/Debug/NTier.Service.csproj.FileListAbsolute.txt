@@ -1,0 +1,50 @@
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\obj\Debug\NTier.Service.csprojAssemblyReference.cache
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\obj\Debug\NTier.Service.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Service.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Service.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Service.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\EntityFramework.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Core.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.DAL.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Model.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Utility.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Map.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Core.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Core.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.DAL.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.DAL.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Model.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\EntityFramework.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Utility.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Map.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\bin\Debug\NTier.Map.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\obj\Debug\NTier.Service.csproj.CopyComplete
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\obj\Debug\NTier.Service.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.Service\obj\Debug\NTier.Service.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Service.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Service.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Service.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\EntityFramework.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Core.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.DAL.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Model.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Utility.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Map.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Core.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Core.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.DAL.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.DAL.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Model.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\EntityFramework.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Utility.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Map.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\bin\Debug\NTier.Map.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\obj\Debug\NTier.Service.csprojAssemblyReference.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\obj\Debug\NTier.Service.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\obj\Debug\NTier.Service.csproj.CopyComplete
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\obj\Debug\NTier.Service.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Service\obj\Debug\NTier.Service.pdb

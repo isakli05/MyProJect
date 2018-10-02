@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Core", "NTier.Core\NTier.Core.csproj", "{A0F2E0A5-9554-4EB9-B712-E89B985E27E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Map", "Ntier.Map\NTier.Map.csproj", "{868AD40C-D0F2-45A0-9440-675F8DB65364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.DAL", "NTier.DAL\NTier.DAL.csproj", "{BFE23F98-35AC-45FA-8811-A8E754E8C8C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Utility", "NTier.Utility\NTier.Utility.csproj", "{821FF199-A21C-407B-BC6C-4470FB11BF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Service", "NTier.Service\NTier.Service.csproj", "{E8357A72-2DF6-4666-A0FB-D8576EA6C520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Model", "NTier.Model\NTier.Model.csproj", "{F48F53AD-545D-4279-8D88-1C9F8980F54B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.UI", "NTier.UI\NTier.UI.csproj", "{5945ED1F-F7D5-48D1-B972-F417404B06CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0F2E0A5-9554-4EB9-B712-E89B985E27E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F2E0A5-9554-4EB9-B712-E89B985E27E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F2E0A5-9554-4EB9-B712-E89B985E27E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F2E0A5-9554-4EB9-B712-E89B985E27E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868AD40C-D0F2-45A0-9440-675F8DB65364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868AD40C-D0F2-45A0-9440-675F8DB65364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868AD40C-D0F2-45A0-9440-675F8DB65364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868AD40C-D0F2-45A0-9440-675F8DB65364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE23F98-35AC-45FA-8811-A8E754E8C8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE23F98-35AC-45FA-8811-A8E754E8C8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE23F98-35AC-45FA-8811-A8E754E8C8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE23F98-35AC-45FA-8811-A8E754E8C8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821FF199-A21C-407B-BC6C-4470FB11BF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821FF199-A21C-407B-BC6C-4470FB11BF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821FF199-A21C-407B-BC6C-4470FB11BF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821FF199-A21C-407B-BC6C-4470FB11BF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8357A72-2DF6-4666-A0FB-D8576EA6C520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8357A72-2DF6-4666-A0FB-D8576EA6C520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8357A72-2DF6-4666-A0FB-D8576EA6C520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8357A72-2DF6-4666-A0FB-D8576EA6C520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48F53AD-545D-4279-8D88-1C9F8980F54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48F53AD-545D-4279-8D88-1C9F8980F54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48F53AD-545D-4279-8D88-1C9F8980F54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48F53AD-545D-4279-8D88-1C9F8980F54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5945ED1F-F7D5-48D1-B972-F417404B06CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5945ED1F-F7D5-48D1-B972-F417404B06CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5945ED1F-F7D5-48D1-B972-F417404B06CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5945ED1F-F7D5-48D1-B972-F417404B06CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54E7B0E9-8339-4270-A569-9FA029D60316}
+	EndGlobalSection
+EndGlobal

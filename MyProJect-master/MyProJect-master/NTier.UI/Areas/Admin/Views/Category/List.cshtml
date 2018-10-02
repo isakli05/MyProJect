@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+@using NTier.Model.Model.Entities
+@model IEnumerable<Category>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Açıklama</th>
+                    <th colspan="2">Güncelle / Sil</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>
+                            @*<a href="~/Admin/Category/Update/@item.ID">Sil</a>*@
+                            @Html.ActionLink("Güncelle", "Update", "Category", new { id = item.ID }, null)
+                            /
+                            @Html.ActionLink("Sil", "Delete", "Category", new { id = item.ID }, null)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

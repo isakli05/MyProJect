@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Member/Views/Shared/_Layout.cshtml";
+}
+
+@using PagedList;
+@using PagedList.Mvc;
+@using NTier.Model.Model.Entities
+@model IPagedList<Product>
+
+<div class="row" style="margin-top:50px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="col-lg-12">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Ürün Adı</th>
+                            <th>Fiyat</th>
+                            <th>Resim</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <td style="line-height:40px;">@item.Name</td>
+                            <td style="line-height:40px;">@item.Price</td>
+                            <td><img style="display:block" height="50" src="@item.ImagePath" /></td>
+                            <td>
+                                <a href="javascript:void(0)" class="add-to-cart">
+                                    <img src="~/Content/images/cart.png" class="btnCart" val="@item.ID" width="40" height="40" data-toggle="tooltip" data-placement="right" title="Sepete Ekle" />
+                                </a>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="pagedList">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), PagedListRenderOptions.Classic)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+        $('.add-to-cart').on('click', function () {
+            $('html', 'body').animate({
+                'scrollTop': $(".cart_anchor").position().tops
+            });
+            //Tıklanmış olan elementin bir dış tag'inden itibaren ilk bulduğu yani sıfırıncı indexteki img dosyasını teslim eder.
+            var itemImg = $(this).parent().find('img').eq(0);
+            flyToElement($(itemImg), $('.cart_anchor'));
+
+        });
+    });
+
+    //Image title bölümü "tooltip" ipucu görüntüsü ile ekrana gelir(siyah kutu içerisinde)
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $(".btnCart").click(function () {
+        //Tıklamış olduğum elementin va attribute'u içerisindeki id değerini yakalıyorum.
+        var id = $(this).attr("val");
+
+        $.ajax({
+            type: "POST",
+            dataType: "Json",
+            url: "@Url.Action("Add","Cart",new { area=""})/" + id,
+            success: function () {
+                //Geriye bir json data dönmüş olsaydı onunla yapacaklarımızı buraya yazardık.
+            }
+
+        })
+
+    })
+
+
+
+</script>
+
+<style>
+    img:hover {
+        cursor: pointer !important;
+    }
+</style>
+

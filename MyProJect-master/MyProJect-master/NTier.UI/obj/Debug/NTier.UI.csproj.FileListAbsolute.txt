@@ -1,0 +1,190 @@
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\obj\Debug\NTier.UI.csprojAssemblyReference.cache
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\obj\Debug\NTier.UI.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.UI.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.UI.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.UI.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\csc.exe
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\csc.exe.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\csc.rsp
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\csi.exe
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\csi.exe.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\csi.rsp
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.AppContext.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Console.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.IO.Compression.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.IO.Pipes.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Security.Claims.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Threading.Thread.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.ValueTuple.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\vbc.exe
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\vbc.exe.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\vbc.rsp
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Core.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.DAL.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Model.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Service.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Utility.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\PagedList.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\PagedList.Mvc.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Helpers.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Mvc.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Razor.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Webpages.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\EntityFramework.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Map.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Core.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Core.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.DAL.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.DAL.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Model.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Service.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Service.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Utility.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\PagedList.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\PagedList.Mvc.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Razor.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Webpages.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Helpers.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\System.Web.Mvc.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\EntityFramework.xml
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Map.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\NTier.Map.dll.config
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\obj\Debug\NTier.UI.csproj.CopyComplete
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\obj\Debug\NTier.UI.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\obj\Debug\NTier.UI.pdb
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\EntityFramework.SqlServer.dll
+C:\Users\gizli\Desktop\My Project\MyProJect\NTier.UI\bin\EntityFramework.SqlServer.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.UI.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.UI.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.UI.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\csc.exe
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\csc.exe.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\csc.rsp
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\csi.exe
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\csi.exe.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\csi.rsp
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.AppContext.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Console.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.IO.Compression.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.IO.Pipes.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Security.Claims.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Threading.Thread.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.ValueTuple.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\vbc.exe
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\vbc.exe.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\vbc.rsp
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\EntityFramework.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\EntityFramework.SqlServer.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Core.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.DAL.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Model.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Service.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Utility.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\PagedList.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\PagedList.Mvc.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Helpers.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Mvc.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Razor.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Webpages.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Map.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Core.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Core.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.DAL.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.DAL.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Model.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Service.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Service.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Utility.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\EntityFramework.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\EntityFramework.SqlServer.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\PagedList.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\PagedList.Mvc.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Razor.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Webpages.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Helpers.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\System.Web.Mvc.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Map.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\bin\NTier.Map.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\obj\Debug\NTier.UI.csprojAssemblyReference.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\obj\Debug\NTier.UI.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\obj\Debug\NTier.UI.csproj.CopyComplete
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\obj\Debug\NTier.UI.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.UI\obj\Debug\NTier.UI.pdb

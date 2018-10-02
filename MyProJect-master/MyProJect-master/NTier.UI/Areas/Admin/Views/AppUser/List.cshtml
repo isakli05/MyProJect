@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Kullanıcı Listesi";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+@using NTier.Model.Model.Entities
+@model IEnumerable<AppUser>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Email</th>
+                    <th>Telefon</th>
+                    <th>Kullanıcı Adı</th>
+                    <th>Şifre</th>
+                    <th>Rol</th>
+                    <th>Fotoğraf</th>
+                    <th colspan="2">Güncelle / Sil</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.LastName</td>
+                        <td>@item.Email</td>
+                        <td>@item.PhoneNumber</td>
+                        <td>@item.UserName</td>
+                        <td>@item.Password</td>
+                        <td>@item.Role</td>
+                        <td><img src="@item.ImagePath" style="display:block" height="20" /></td>
+                        <td>
+                            @*<a href="~/Admin/AppUser/Update/@item.ID">Sil</a>*@
+                            @Html.ActionLink("Güncelle", "Update", "AppUser", new { id = item.ID }, null)
+                            /
+                            @Html.ActionLink("Sil", "Delete", "AppUser", new { id = item.ID }, null)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

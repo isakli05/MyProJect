@@ -1,0 +1,24 @@
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\bin\Debug\NTier.Model.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\bin\Debug\NTier.Model.pdb
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\bin\Debug\NTier.Core.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\bin\Debug\EntityFramework.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\bin\Debug\NTier.Core.pdb
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\bin\Debug\NTier.Core.dll.config
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\bin\Debug\EntityFramework.xml
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\obj\Debug\NTier.Model.csprojAssemblyReference.cache
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\obj\Debug\NTier.Model.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\obj\Debug\NTier.Model.csproj.CopyComplete
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\obj\Debug\NTier.Model.dll
+C:\Users\gizli\Desktop\My Project\MyProject_MVC\NTier.Model\obj\Debug\NTier.Model.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\bin\Debug\NTier.Model.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\bin\Debug\NTier.Model.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\bin\Debug\NTier.Core.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\bin\Debug\EntityFramework.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\bin\Debug\NTier.Core.pdb
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\bin\Debug\NTier.Core.dll.config
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\bin\Debug\EntityFramework.xml
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\obj\Debug\NTier.Model.csprojAssemblyReference.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\obj\Debug\NTier.Model.csproj.CoreCompileInputs.cache
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\obj\Debug\NTier.Model.csproj.CopyComplete
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\obj\Debug\NTier.Model.dll
+C:\Users\gizli\Downloads\MyProJect-master\MyProJect-master\NTier.Model\obj\Debug\NTier.Model.pdb

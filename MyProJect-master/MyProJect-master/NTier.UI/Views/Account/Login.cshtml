@@ -1,0 +1,96 @@
+﻿@{
+    Layout = null;
+}
+
+@using NTier.UI.Models
+@model LoginVM
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <title>Üye Girişi</title>
+</head>
+
+<body>
+    <button class="btn btn-primary mt-2" id="btnGrs">Giriş Yap</button>
+    <button class="btn btn-primary mt-2" id="btnUye">Üye Ol</button>
+    <div class="container col-lg-4">
+        <div class="login">
+            <h3 id="bas"></h3>
+            <div id="grs" class="collapse show mx-auto">
+                <form action="/Account/Login" method="post">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <input type="text" placeholder="Kullanıcı Adı:Admin-isak" name="UserName" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Şifre:1234-123" name="Password" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Beni Hatırla
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Giriş Yap</button>
+                    <span class="text-danger">
+                        @Html.ValidationMessageFor(x => x.UserName)
+                    </span>
+                </form>
+            </div>
+            <div id="uye" class="collapse hide mx-auto">
+                <form action="/Account/MemberAdd" method="POST">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ad" class="form-control" id="ad">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Soyad" class="form-control" id="soyad">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Şifre" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Şifre Tekrarı" class="form-control" id="pwdT">
+                    </div>
+                    <div class="form-group ">
+                        <input type="date" placeholder="Doğum Tarihi" class="form-control" id="date">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" maxlength="10" placeholder="Cep telefonu" class="form-control" id="phone">
+                    </div>
+                    <button type="submit" class="btn btn-primary pull-center">Üye Ol</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    // $('.collapse').collapse()
+    $(document).ready(function () {
+        $("#btnGrs ").click(function () {
+            $("#bas ").html("Üye Girişi ");
+            $("#btnGrs ").addClass("btn btn-success");
+            $("#btnUye ").removeClass("btn btn-success").addClass("btn btn-primary");
+            $("#grs ").collapse('show');
+            $("#uye ").collapse('hide');
+        });
+
+        $("#btnUye ").click(function () {
+            $("#bas ").html("Yeni Üyelik ");
+            $("#btnGrs ").removeClass("btn btn-success").addClass("btn btn-primary");
+            $("#btnUye ").addClass("btn btn-success ");
+            $("#uye ").collapse('show');
+            $("#grs ").collapse('hide');
+        });
+    });
+</script>
